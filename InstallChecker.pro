@@ -8,7 +8,9 @@ CONFIG += app_bundle
 TEMPLATE = app
 
 SOURCES += main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    moduleinfo.cpp \
+    nosuchvalueexception.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -25,4 +27,6 @@ FORMS += \
     mainwindow.ui
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    moduleinfo.h \
+    nosuchvalueexception.h
